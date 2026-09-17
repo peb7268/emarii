@@ -12,7 +12,11 @@ watched MRs as they change.
 Grab the latest build from [Releases](../../releases).
 
 - **macOS** — `Emarii_<version>_universal.dmg`, Intel and Apple Silicon, macOS 13+
-- **Windows** — `.msi` or the NSIS `.exe`, Windows 10/11 x64
+- **Windows** — `Emarii_<version>_x64.exe`, a portable executable, Windows 10/11 x64
+
+The Windows filename carries the version it was **built** at. Windows builds are produced
+on a separate machine, so when that number is lower than the release's, the Windows build
+is behind the macOS one.
 
 ## First run
 
