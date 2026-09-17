@@ -1,6 +1,6 @@
-# MARI
+# Emarii
 
-**M-Ari** — a desktop app for reviewing GitLab merge requests and GitHub pull requests.
+**Emarii** (M-Ari) — a desktop app for reviewing GitLab merge requests and GitHub pull requests.
 One list for both, triage from a right-click menu, an AI review you edit before posting,
 a merge that refuses to fire unless every check passes, and a loop that re-reviews
 watched MRs as they change.
@@ -11,7 +11,7 @@ watched MRs as they change.
 
 Grab the latest build from [Releases](../../releases).
 
-- **macOS** — `MARI_<version>_universal.dmg`, Intel and Apple Silicon, macOS 13+
+- **macOS** — `Emarii_<version>_universal.dmg`, Intel and Apple Silicon, macOS 13+
 - **Windows** — `.msi` or the NSIS `.exe`, Windows 10/11 x64
 
 ## First run
@@ -22,14 +22,14 @@ Builds are **unsigned**.
 once, or:
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/MARI.app
+xattr -dr com.apple.quarantine /Applications/Emarii.app
 ```
 
 **Windows** — SmartScreen warns on first run: **More info → Run anyway**.
 
 ## What you need installed
 
-MARI shells out to the CLIs you already use and **never reads or stores a token** — `gh`
+Emarii shells out to the CLIs you already use and **never reads or stores a token** — `gh`
 and `glab` keep their own credentials in your OS keychain.
 
 | | Why | Install |
@@ -56,4 +56,4 @@ Settings → **Required tools** shows what is missing and the exact command to f
 ## Privacy
 
 MR content goes only to the review command you configure. There is no telemetry, and no
-credential ever passes through MARI.
+credential ever passes through Emarii.
